@@ -28,15 +28,7 @@
                     rgba($color-primary-dark, 0.8)),
     url(/natours/img/hero.jpg);
   }
-  // Если экран более 2000px, то вывести соответствующее изображение
-  /* @media (min-width: 2000px) {
-    background-image: linear-gradient(
-                    to right bottom,
-                    rgba($color-secondary-light, 0.8),
-                    rgba($color-secondary-dark, 0.8)),
-    url(/natours/img/hero.jpg); */
-
-  // Изменим для мобильных главный экран, наш обрезанный эффект стал слишком крутым
+  
   @include respond(phone) {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
