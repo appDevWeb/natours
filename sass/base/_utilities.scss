@@ -9,7 +9,6 @@
 
 .u-margin-bottom-medium {
   margin-bottom: 4rem !important;
-  // 🔖 Уменьшим отсупы в секции для экранов 900px
   @include respond(tab-port) {
     margin-bottom: 3rem !important;
   }
@@ -18,7 +17,6 @@
 .u-margin-bottom-big {
   margin-bottom: 8rem !important;
 
-  // 🔖 Уменьшим отсупы в секции для экранов 900px
   @include respond(tab-port) {
     margin-bottom: 5rem !important;
   }
