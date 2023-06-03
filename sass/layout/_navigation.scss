@@ -109,7 +109,6 @@
 
   // FUNCTIONALITY
   &__checkbox:checked ~ &__background {
-    // Масштабируем в 80 раз
     transform: scale(80);
   }
 
